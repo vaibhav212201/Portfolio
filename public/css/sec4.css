@@ -1,0 +1,154 @@
+.sec4 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+
+.sec4 .proCont {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+
+
+}
+
+.proCont .pro {
+    width: 40%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+.proCont .pro .skills-used{
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+
+}
+.proCont .pro .pro-info{
+   font-size: 11px;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+
+.pro .project-info {
+    width: 100%;
+    border: 1px solid red;
+    height: 300px;
+}
+
+.project-info {
+    color: black;
+}
+
+.project-info .name {
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+
+.project-info .pdescription {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-info .skills-used h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+
+.project-info .skills-used .skill {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+.pro h2 {
+    font-size: 28px;
+    margin: 16px;
+    text-align: center;
+}
+
+.pro img {
+    width: 70%;
+    height: 50vh;
+    border-radius: 25px;
+    
+}
+
+.pro .btncont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pro .btncont a {
+    text-decoration: none;
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 13.13px;
+    font-weight: 600;
+    color: black;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    padding: 16px;
+}
+
+.pro .btncont a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pro .btncont a:hover i {
+    font-size: 1rem;
+}
+
+@media (max-width:700px) {
+    .sec4 .proCont {
+        flex-direction: column;
+    }
+
+    .proCont .pro {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .pro .btncont a {
+        width: 35%;
+    }
+    .pro img {
+        width: 90%;
+        height: 46vh;
+        border-radius: 25px;
+        object-fit: fill;
+    }
+    
+}
